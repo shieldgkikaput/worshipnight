@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2{font-family: "Handwritings1", Handwritings1}
+body, html {height: 90%}
+p {line-height: 2}
+.bgimg, .bgimg2 , .bgimg3{
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("kontol.png")}
+.bgimg2 {background-image: url("pop.png")}
+.bgimg3 {background-image: url("gung.png")}
+</style>
+</head>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-black w3-center">
+    <h1 class="w3-jumbo"></h1>
+    <h2></h2>
+    <h2><b></b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">H.O.P.E</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Date & Location</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-navy min " id="us">
+    <body style="background-color: #6856a2;"></body>
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-white"><b>H.O.P.E</b></h1>
+    <img class="w3-round w3-grayscale-min" src="hope burung.png" style="width:100%;margin:32px 0">
+    <p><i>Worship Night H.O.P.E adalah acara malam puji-pujian yang diselenggarakan oleh SHIELD Community, Kaum Muda GKI Kayu Putih. Acara ini bertujuan untuk mengajak kaum muda untuk tetap memiliki iman percaya, mau membuka hati pada pertolongan Tuhan, dan menyadari bahwa selalu ada pengharapan dalam Kristus sekalipun berada di tengah pergumulan dan luka batin.</i>
+    </p><br>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large"> Details</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">YOU ARE INVITED !</h1><br>
+    <h2></h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-gray w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-black"><b>DETAILS</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="aula.jpeg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>WHEN</h2>
+        <p>OPEN GATE - 16.00</p>
+        <p>START  - 17.00</p>
+      </div>
+      <div class="w3-half">
+        <h2>WHERE</h2>
+        <p>PENABUR INTERNATIONAL SCHOOL</p>
+        <p><a href="https://www.google.com/maps/place/SPK+Penabur+Kelapa+Gading/@-6.1657103,106.8862969,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f4d8964cf553:0x55c8196a11f57e81!8m2!3d-6.1657103!4d106.8911678!16s%2Fg%2F1hc2llp0t?entry=ttu"title="W3.CSS" target="_blank" class="w3-hover-text-green">CLICK MAPS</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-black w3-center w3-wide" id="rsvp">
+  <h1>SEE YOU THERE!</h1>
+  <p class="w3-large"></p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-white w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP HERE</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">CAN YOU COME?</h1>
+      <p><a href="http://bit.ly/RSVP-WNSHIELD" title="W3.CSS" target="_blank" class="w3-hover-text-green">CLICK HERE</a></p>
+      <form>
+        
+      </form>
+     
+      <div class="w3-row">
+        <div class="w3-half">
+            <img src="bcd.png" style="width:100%;margin: 128px;">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="http://bit.ly/RSVP-WNSHIELD" title="W3.CSS" target="_blank" class="w3-hover-text-green">SHIELD KAPUT</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
